@@ -16,8 +16,8 @@ export default {
       screens: {
         // Define custom breakpoints
         'big-monitor': '1667px', // Big screen monitor breakpoint
-        'laptop': '1920px',      // Medium laptop breakpoint
-        'mobile': { 'max': '740px' }, // Mobile screen breakpoint
+        'laptop': { 'min': '768px' }, // '768px',      // Medium laptop breakpoint
+        'mobile': { 'max': '640px' }, // Mobile screen breakpoint
       },
     },
   },
